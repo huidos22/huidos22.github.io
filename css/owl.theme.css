@@ -1,0 +1,63 @@
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0;
+    color: #000000;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0px;
+    opacity: 1;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+}
+
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: 0px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 0px;
+}
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #444;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: 1;
+}
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    height: auto;
+    padding: 2px 10px;
+    width: auto;
+}
+
+.owl-item.loading {
+    background: url("http://www.ext-joom.com/demo/modules/mod_ext_owl_carousel_k2_content/assets/images/AjaxLoader.gif") no-repeat scroll center center rgba(0, 0, 0, 0);
+    min-height: 150px;
+}
