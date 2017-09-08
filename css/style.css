@@ -824,7 +824,7 @@ section .text-center h3.section-subheading {
     transition: all 0.3s ease 0s;
     width: 170px;
     background-color: #222222;
-    color: #FFFFFF;
+    color: #FBFAF5;
     text-align: right;
     text-transform: uppercase;
     background: url("../img/menu-u83-fr.png") no-repeat scroll right top / cover transparent;
